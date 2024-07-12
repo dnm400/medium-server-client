@@ -50,6 +50,7 @@ int main(){
     else {
         cout << "bind() is OK!" << endl;
     }
+    
 
     //Listen for incoming connections
     if(listen(serverSocket, 1) == SOCKET_ERROR){
